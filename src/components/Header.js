@@ -28,15 +28,16 @@ const Header = () => {
         <div className="right-nav">
           <ul>
             <li>
-              <Link to="/settings">
-                <span>{user.name}</span>
-              </Link>
+              <span>{user.name}</span>
             </li>
             <li>
               {/* Logout button */}
               <button className="header-logout-button" onClick={handleLogout}>
                 Logout
               </button>
+            </li>
+            <li>
+              <a href="https://github.com/Interactorsolutions/simple-chat/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a>
             </li>
           </ul>
         </div>

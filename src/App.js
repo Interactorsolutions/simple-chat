@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Register from './views/Register';
 import Chat from './views/Chat';
 import Integrations from './views/Integrations';
-import Settings from './views/Settings';
 
 const App = () => {
   return (
@@ -13,7 +12,6 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/integrations" element={<Integrations />} />
-        <Route path="/settings" element={<Settings />} />
         {/* Redirect from "/" to "/login" */}
         <Route path="/" element={<Navigate to="/register" />} />
         {/* Catch-all route for unmatched paths */}
