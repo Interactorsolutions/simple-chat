@@ -7,7 +7,7 @@ import Settings from './views/Settings';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         {/* Define individual routes */}
         <Route path="/register" element={<Register />} />

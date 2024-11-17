@@ -2,6 +2,7 @@
   "name": "betterme",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://interactorsolutions.github.io/simple-chat/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
