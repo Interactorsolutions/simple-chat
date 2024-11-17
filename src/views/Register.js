@@ -30,6 +30,7 @@ const Register = () => {
 
   return (
     <div className="register-container">
+      <a href="https://github.com/Interactorsolutions/simple-chat/" target="_blank" rel="noopener noreferrer" class="github-link register-page-github" aria-label="GitHub repository"></a>
       <h2 className="register-title">Create Your Account</h2>
       {error && <p className="register-error">{error}</p>}
       <form className="register-form">

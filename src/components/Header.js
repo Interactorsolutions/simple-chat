@@ -37,7 +37,7 @@ const Header = () => {
               </button>
             </li>
             <li>
-              <a href="https://github.com/Interactorsolutions/simple-chat/" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a>
+              <a href="https://github.com/Interactorsolutions/simple-chat/" target="_blank" rel="noopener noreferrer" class="github-link header-page-github" aria-label="GitHub repository"></a>
             </li>
           </ul>
         </div>
