@@ -140,12 +140,25 @@ nav a {
 .chat-input-container {
   position: fixed;
   bottom: 1rem;
-  width: 800px;
+  display: flex;
+  max-width: 800px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 #chat-input {
-  width: 775px;
+  flex: 1;
   padding: 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-right: 1rem;
+}
+
+.chat-send-button {
+  padding: 0.75rem 2.5rem;
   border-radius: 20px;
   border: 1px solid #ccc;
   font-size: 16px;

@@ -141,6 +141,9 @@ const Chat = () => {
               onKeyDown={handleKeyDown} // Listen for Enter key press
               placeholder="Type your message..."
             />
+            <button onClick={handleSendMessage} className="chat-send-button">
+              Send
+            </button>
             {showPopup && (
               <div className="chat-popup">
                 <div className="chat-popup-title">Select a connector</div>
